@@ -1,6 +1,6 @@
 {
   "name": "angular-xgallerify",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "angular wrapper for query.xgallerify by xremix",
   "main": "Gruntfile.js",
   "scripts": {

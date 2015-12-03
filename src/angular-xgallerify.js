@@ -6,13 +6,28 @@ jjtXGallerify.directive('xgallerify', function () {
         replace: 'false',
         link: function (scope, element, attrs) {
 
+            var margin = 5;
+            var mode = 'default';
+            var lastRow = 'adjust';
+
             element.gallerify({
-                margin:5,
-                mode:'default',
+                margin:margin,
+                mode:mode,
                 // mode:'bootstrap',
                 // mode:'flickr',
                 // lastRow:'fullwidth',
-                lastRow:'adjust',
+                lastRow:lastRow,
+            });
+
+            scope.$on('angular-xGallerify.refresh', function() {
+                element.gallerify({
+                    margin:margin,
+                    mode:mode,
+                    // mode:'bootstrap',
+                    // mode:'flickr',
+                    // lastRow:'fullwidth',
+                    lastRow:lastRow,
+                });
             });
         }
     }
