@@ -20,14 +20,7 @@ jjtXGallerify.directive('xgallerify', function () {
             });
 
             scope.$on('angular-xGallerify.refresh', function() {
-                element.gallerify({
-                    margin:margin,
-                    mode:mode,
-                    // mode:'bootstrap',
-                    // mode:'flickr',
-                    // lastRow:'fullwidth',
-                    lastRow:lastRow,
-                });
+                element.gallerify().reinit();
             });
         }
     }
