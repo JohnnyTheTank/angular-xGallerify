@@ -20,7 +20,7 @@ jjtXGallerify.directive('xgallerify', function () {
             });
 
             scope.$on('angular-xGallerify.refresh', function() {
-                element.gallerify().reinit();
+                element.gallerify.reinit();
             });
         }
     }
