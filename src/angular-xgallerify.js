@@ -7,8 +7,11 @@ jjtXGallerify.directive('xgallerify', function () {
         link: function (scope, element, attrs) {
 
             var settings = {};
+            var params = {};
 
-            var params = $.parseJSON(attrs.xgallerify.replace(/'/g, '"'));
+            if(attrs.xgallerify) {
+                params = $.parseJSON(attrs.xgallerify.replace(/'/g, '"'));
+            }
 
             if (isObject(params)) {
                 settings = $.extend({
