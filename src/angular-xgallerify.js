@@ -2,33 +2,31 @@ var jjtXGallerify = angular.module('jtt_angular_xgallerify', []);
 
 jjtXGallerify.directive('xgallerify', function () {
     return {
-        restrict: 'AEC',
+        restrict: 'A',
         replace: 'false',
         link: function (scope, element, attrs) {
 
-            var margin = 5;
-            var mode = 'default';
-            var lastRow = 'adjust';
+            var settings = {};
 
-            element.gallerify({
-                margin:margin,
-                mode:mode,
-                // mode:'bootstrap',
-                // mode:'flickr',
-                // lastRow:'fullwidth',
-                lastRow:lastRow,
-            });
+            var params = $.parseJSON(attrs.xgallerify.replace(/'/g, '"'));
+
+            if (isObject(params)) {
+                settings = $.extend({
+                    margin:5,
+                    mode:'normal',
+                    lastRow:'adjust'
+                }, params );
+            }
+
+            element.gallerify(settings);
 
             scope.$on('angular-xGallerify.refresh', function() {
-                element.gallerify({
-                    margin:margin,
-                    mode:mode,
-                    // mode:'bootstrap',
-                    // mode:'flickr',
-                    // lastRow:'fullwidth',
-                    lastRow:lastRow,
-                });
+                element.gallerify(settings);
             });
+
+            function isObject(item) {
+                return (typeof item === "object" && !Array.isArray(item) && item !== null);
+            }
         }
     }
 });
