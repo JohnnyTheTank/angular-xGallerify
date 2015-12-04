@@ -1,4 +1,47 @@
 # angular-xGallerify
 AngularJS directive for [jquery.xGallerify](https://github.com/xremix/xGallerify)
 
-[Demo](https://rawgit.com/JohnnyTheTank/angular-xGallerify/master/demo/index.html)
+## Demo
+
+[simple demo](https://rawgit.com/JohnnyTheTank/angular-xGallerify/master/demo/index.html)
+
+## Usage
+
+1. Install via [bower](http://bower.io/) :
+    1. `bower install --save angular-xGallerify`
+2. Add `jtt_angular_xgallerify` to your application's module dependencies.
+3. Include dependencies in your HTML.
+    1. When using bower:
+
+    ```html
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/xGallerify/dist/jquery.xgallerify.min.js"></script>
+    ```
+
+4. Use the directive `xgallerify`.
+
+### Sample
+```HTML
+<div xgallerify>
+    <img src="http://placehold.it/600x400">
+    <img src="http://placehold.it/600x320">
+    <img src="http://placehold.it/600x320">
+    <img src="http://placehold.it/600x400">
+    <img src="http://placehold.it/600x600">
+    <img src="http://placehold.it/600x400">
+    <img src="http://placehold.it/600x600">
+    <img src="http://placehold.it/600x400">
+    <img src="http://placehold.it/600x400">
+    <img src="http://placehold.it/600x600">
+    <img src="http://placehold.it/600x320">
+    <img src="http://placehold.it/600x400">
+    <img src="http://placehold.it/600x400">
+    </div>
+</div>
+```
+
+### Parameters
+Set parameters like this: `xgallerify="{'margin':10, 'mode':'bootstrap'}"`
+
+Get the [full list of parameters](https://github.com/xremix/xGallerify#parameters)
