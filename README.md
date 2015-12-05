@@ -18,7 +18,6 @@ AngularJS directive for [jquery.xGallerify](https://github.com/xremix/xGallerify
     <script src="bower_components/angular/angular.min.js"></script>
     <script src="bower_components/xGallerify/dist/jquery.xgallerify.min.js"></script>
     ```
-
     2. When using downloaded files
     ```html
     <script src="YOUR_PATH/jquery.min.js"></script>
