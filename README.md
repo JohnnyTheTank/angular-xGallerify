@@ -46,6 +46,10 @@ AngularJS directive for [jquery.xGallerify](https://github.com/xremix/xGallerify
 ```
 
 ### Parameters
-Set your xGallerify parameters like this: `xgallerify="{'margin':10, 'mode':'bootstrap'}"`
+Set your xGallerify parameters like this:
+```HTML
+<div xgallerify="{ 'margin':10, 'mode':'bootstrap' }">
+</div>
+```
 
 Get the full list of parameters at the original project page: [jquery.xGallerify](https://github.com/xremix/xGallerify#parameters)
