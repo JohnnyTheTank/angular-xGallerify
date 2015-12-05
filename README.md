@@ -12,7 +12,7 @@ AngularJS directive for [jquery.xGallerify](https://github.com/xremix/xGallerify
     2. via downloaded files
 2. Add `jtt_angular_xgallerify` to your application's module dependencies.
 3. Include dependencies in your HTML.
-    1. When using bower:
+    1. When using bower
     ```html
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/angular/angular.min.js"></script>
@@ -24,7 +24,6 @@ AngularJS directive for [jquery.xGallerify](https://github.com/xremix/xGallerify
     <script src="YOUR_PATH/angular.min.js"></script>
     <script src="YOUR_PATH/jquery.xgallerify.min.js"></script>
     ```
-
 4. Use the directive `xgallerify`
 
 ### Sample
