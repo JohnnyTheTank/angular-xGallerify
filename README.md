@@ -65,3 +65,7 @@ is **equal** to
 </div>
 ```
 
+## Dependencies
+ - [jquery/jquery](https://github.com/jquery/jquery)
+ - [xremix/xGallerify](https://github.com/xremix/xGallerify)
+
