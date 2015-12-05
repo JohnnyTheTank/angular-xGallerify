@@ -67,5 +67,6 @@ is **equal** to
 
 ## Dependencies
  - [jquery/jquery](https://github.com/jquery/jquery)
+ - [angular/angular](https://github.com/angular/angular)
  - [xremix/xGallerify](https://github.com/xremix/xGallerify)
 
