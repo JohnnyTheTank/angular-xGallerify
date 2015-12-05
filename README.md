@@ -45,6 +45,15 @@ AngularJS directive for [jquery.xGallerify](https://github.com/xremix/xGallerify
 </div>
 ```
 
+### Parameters
+Set your xGallerify parameters like this:
+```HTML
+<div xgallerify="{ 'margin':10, 'mode':'bootstrap' }">
+</div>
+```
+#### All parameters
+Get the **full list** of parameters at the **original project page: [jquery.xGallerify](https://github.com/xremix/xGallerify#parameters)**
+
 ### Compatibility
 ```HTML
 <div xgallerify>
@@ -56,11 +65,3 @@ is **equal** to
 </div>
 ```
 
-### Parameters
-Set your xGallerify parameters like this:
-```HTML
-<div xgallerify="{ 'margin':10, 'mode':'bootstrap' }">
-</div>
-```
-
-Get the full list of parameters at the original project page: [jquery.xGallerify](https://github.com/xremix/xGallerify#parameters)
