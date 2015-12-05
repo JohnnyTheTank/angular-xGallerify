@@ -24,7 +24,7 @@ AngularJS directive for [jquery.xGallerify](https://github.com/xremix/xGallerify
     <script src="YOUR_PATH/angular.min.js"></script>
     <script src="YOUR_PATH/jquery.xgallerify.min.js"></script>
     ```
-4. Use the directive `xgallerify`
+4. Use the directive `xgallerify` as **html attribute**
 
 ### Sample
 ```HTML
@@ -44,6 +44,9 @@ AngularJS directive for [jquery.xGallerify](https://github.com/xremix/xGallerify
     <img src="http://placehold.it/600x400">
 </div>
 ```
+
+### Compatibility
+`<div xgallerify>` is equal to `<div data-xgallerify>`
 
 ### Parameters
 Set your xGallerify parameters like this:
