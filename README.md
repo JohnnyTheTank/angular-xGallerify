@@ -46,7 +46,15 @@ AngularJS directive for [jquery.xGallerify](https://github.com/xremix/xGallerify
 ```
 
 ### Compatibility
-`<div xgallerify>` is equal to `<div data-xgallerify>`
+```HTML
+<div xgallerify>
+</div>
+```
+is **equal** to
+```HTML
+<div data-xgallerify>
+</div>
+```
 
 ### Parameters
 Set your xGallerify parameters like this:
