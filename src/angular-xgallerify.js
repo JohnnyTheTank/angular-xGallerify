@@ -24,7 +24,7 @@ jjtXGallerify.directive('xgallerify', function () {
             element.gallerify(settings);
 
             scope.$on('angular-xGallerify.refresh', function() {
-                element.gallerify.renderAsyncImages();
+                element.gallerify.render();
             });
 
             function isObject(item) {
