@@ -16,7 +16,7 @@ jjtXGallerify.directive('xgallerify', function () {
             if (isObject(params)) {
                 settings = $.extend({
                     margin:5,
-                    mode:'normal',
+                    mode:'bootstrap',
                     lastRow:'adjust'
                 }, params );
             }
