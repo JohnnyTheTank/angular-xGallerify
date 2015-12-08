@@ -1,9 +1,9 @@
 # angular-xGallerify
 AngularJS directive for [jquery.xGallerify](https://github.com/xremix/xGallerify)
 
-## Demo
-
-[simple demo](https://rawgit.com/JohnnyTheTank/angular-xGallerify/master/demo/index.html)
+## Demos
+- [simple demo](https://rawgit.com/JohnnyTheTank/angular-xGallerify/master/demo/index.html)
+- [dynamic demo](https://rawgit.com/JohnnyTheTank/apiNG-design-xgallerify/master/demo/) (based on [apiNG](https://github.com/JohnnyTheTank/apiNG))
 
 ## Usage
 
