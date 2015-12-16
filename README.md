@@ -6,7 +6,7 @@ AngularJS directive for [jquery.xGallerify](https://github.com/xremix/xGallerify
 ![angular-xGallerify Demo](demo.jpg)
 
 - [Simple demo](https://rawgit.com/JohnnyTheTank/angular-xGallerify/master/demo/index.html)
-- [Dynamic demo (pictures from twitter)](https://rawgit.com/JohnnyTheTank/apiNG-design-xgallerify/master/demo/) (based on [apiNG](https://github.com/JohnnyTheTank/apiNG))
+- [Dynamic demo (pictures from twitter)](https://rawgit.com/JohnnyTheTank/apiNG-design-xgallerify/master/demo/) - based on [apiNG](https://github.com/JohnnyTheTank/apiNG)
 
 ## Usage
 
