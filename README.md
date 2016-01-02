@@ -10,9 +10,10 @@ AngularJS directive for [jquery.xGallerify](https://github.com/xremix/xGallerify
 
 ## Usage
 
-1. Install
-    1. via [bower](http://bower.io/): `bower install --save angular-xGallerify`
-    2. via downloaded files
+1. Install via either [bower](http://bower.io/), [npm](https://www.npmjs.com/) or downloaded files:
+    1. via bower: `bower install --save angular-xGallerify`
+    2. via npm: `npm install --save angular-xgallerify`
+    3. via downloaded files
 2. Add `jtt_angular_xgallerify` to your application's module dependencies.
 3. Include dependencies in your HTML.
     1. When using bower
@@ -21,7 +22,13 @@ AngularJS directive for [jquery.xGallerify](https://github.com/xremix/xGallerify
     <script src="bower_components/angular/angular.min.js"></script>
     <script src="bower_components/xGallerify/dist/jquery.xgallerify.min.js"></script>
     ```
-    2. When using downloaded files
+    2. When using npm
+    ```html
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/angular/angular.min.js"></script>
+    <script src="node_modules/xgallerify/dist/jquery.xgallerify.min.js"></script>
+    ```
+    3. When using downloaded files
     ```html
     <script src="YOUR_PATH/jquery.min.js"></script>
     <script src="YOUR_PATH/angular.min.js"></script>
@@ -67,9 +74,4 @@ is **equal** to
 <div data-xgallerify>
 </div>
 ```
-
-## Dependencies
- - [jquery](https://github.com/jquery/jquery)
- - [angular](https://github.com/angular/angular)
- - [xremix/xGallerify](https://github.com/xremix/xGallerify)
 

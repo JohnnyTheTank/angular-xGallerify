@@ -4,7 +4,7 @@
   "authors": [
     "Jonathan Hornung <jonathan.hornung@gmail.com>"
   ],
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "angular wrapper for query.xgallerify by xremix",
   "main": "dist/angular-xgallerify.min.js",
   "moduleType": [
@@ -28,7 +28,6 @@
     "url": "git://github.com/JohnnyTheTank/angular-xGallerify.git"
   },
   "dependencies": {
-    "xGallerify": "*",
-    "angular": "*"
+    "xGallerify": "*"
   }
 }
