@@ -1,32 +1,45 @@
 module.exports = function(grunt) {
 
+    var banner = '/**\n    @name: <%= pkg.name %> \n    @version: <%= pkg.version %> (<%= grunt.template.today("dd-mm-yyyy") %>) \n    @author: <%= pkg.author %> \n    @url: <%= pkg.homepage %> \n    @license: <%= pkg.license %>\n*/\n';
+
+    var sources = [
+                        'src/angular-xgallerify.js'
+                    ];
+
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
         uglify: {
             js: {
                 files : {
-                    'dist/angular-xgallerify.min.js' : [
-                        'src/angular-xgallerify.js'
-                    ]
+                    'dist/angular-xgallerify.min.js' : sources
                 }
             },
             options: {
-                banner: '\n/*! <%= pkg.name %> v<%= pkg.version %> (<%= grunt.template.today("dd-mm-yyyy") %>) by <%= pkg.author %> */\n',
+                banner: banner
+            }
+        },
+        concat: {
+            options: {
+                separator: ';',
+                banner: banner
+            },
+            dist: {
+                src: sources,
+                dest: 'dist/angular-xgallerify.js'
             }
         },
         watch: {
             minifiyJs: {
-                files: [
-                    'src/angular-xgallerify.js',
-                ],
-                tasks: ['uglify'],
+                files: sources,
+                tasks: ['uglify', 'concat'],
                 options: {
-                    spawn: true,
-                },
-            },
-        },
+                    spawn: true
+                }
+            }
+        }
     });
 
+    grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-watch');
 

@@ -1,3 +1,10 @@
+/**
+    @name: angular-xgallerify 
+    @version: 1.0.1 (13-01-2016) 
+    @author: Jonathan Hornung <jonathan.hornung@gmail.com> 
+    @url: https://github.com/JohnnyTheTank/angular-xGallerify#readme 
+    @license: MIT
+*/
 var jjtXGallerify = angular.module('jtt_angular_xgallerify', []);
 
 jjtXGallerify.directive('xgallerify', function () {

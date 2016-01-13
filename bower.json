@@ -4,8 +4,8 @@
   "authors": [
     "Jonathan Hornung <jonathan.hornung@gmail.com>"
   ],
-  "version": "1.0.0",
-  "description": "angular wrapper for query.xgallerify by xremix",
+  "version": "1.0.1",
+  "description": "Angular wrapper for query.xgallerify by xremix",
   "main": "dist/angular-xgallerify.min.js",
   "moduleType": [
     "globals"
