@@ -13,7 +13,7 @@ AngularJS directive for [jquery.xGallerify](https://github.com/xremix/xGallerify
 1. Install via either [bower](http://bower.io/), [npm](https://www.npmjs.com/) or downloaded files:
     1. via bower: `bower install --save angular-xGallerify`
     2. via npm: `npm install --save angular-xgallerify`
-    3. via downloaded files
+    3. via [downloaded files](https://github.com/JohnnyTheTank/angular-xGallerify/zipball/master)
 2. Add `jtt_angular_xgallerify` to your application's module dependencies.
 3. Include dependencies in your HTML.
     1. When using bower
