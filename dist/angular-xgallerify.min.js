@@ -1,6 +1,6 @@
 /**
     @name: angular-xgallerify 
-    @version: 1.0.1 (13-01-2016) 
+    @version: 1.0.2 (21-01-2016) 
     @author: Jonathan Hornung <jonathan.hornung@gmail.com> 
     @url: https://github.com/JohnnyTheTank/angular-xGallerify#readme 
     @license: MIT
