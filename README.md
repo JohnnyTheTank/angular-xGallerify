@@ -1,6 +1,9 @@
 # angular-xGallerify
 AngularJS directive for [jquery.xGallerify](https://github.com/xremix/xGallerify)
 
+[![npm version](https://badge.fury.io/js/angular-xgallerify.png)](https://badge.fury.io/js/angular-xgallerify)
+[![Bower version](https://badge.fury.io/bo/angular-xGallerify.png)](https://badge.fury.io/bo/angular-xGallerify)
+
 ## Demos
 
 ![angular-xGallerify Demo](demo.jpg)
