@@ -81,6 +81,17 @@ AngularJS directive for [jquery.xGallerify](https://github.com/xremix/xGallerify
 </div>
 ```
 
+### Event
+Angular event to manually re-balance all triggered elements use `angular-xGallerify.refresh`
+
+```javascript
+//dispatches the event upwards through the scope hierarchy
+$scope.$emit('angular-xGallerify.refresh');
+
+//dispatches the event downwards to all child scopes
+$scope.$broadcast('angular-xGallerify.refresh');
+```
+
 ### Parameters
 Set your xGallerify parameters like this:
 ```HTML
@@ -101,3 +112,5 @@ is **equal** to
 </div>
 ```
 
+## License
+MIT
