@@ -9,7 +9,7 @@ angular.module('jtt_angular_xgallerify', [])
                 if (attrs.xgallerify) {
                     params = $.parseJSON(attrs.xgallerify.replace(/'/g, '"'));
                 }
-                if (isObject(params)) {
+                if (typeof params === 'object' && params !== null) {
                     settings = $.extend({
                         margin: 5,
                         mode: 'bootstrap',
@@ -20,9 +20,7 @@ angular.module('jtt_angular_xgallerify', [])
                 scope.$on('angular-xGallerify.refresh', function () {
                     element.gallerify.render();
                 });
-                function isObject(item) {
-                    return (typeof item === "object" && !Array.isArray(item) && item !== null);
-                }
+
             }
         }
     });
