@@ -6,7 +6,7 @@
   ],
   "version": "1.0.2",
   "description": "Angular wrapper for query.xgallerify by xremix",
-  "main": "dist/angular-xgallerify.min.js",
+  "main": "dist/angular-xgallerify.js",
   "moduleType": [
     "globals"
   ],
