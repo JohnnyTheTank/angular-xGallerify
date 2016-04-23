@@ -28,7 +28,7 @@ AngularJS directive for [jquery.xGallerify](https://github.com/xremix/xGallerify
     <script src="bower_components/xGallerify/dist/jquery.xgallerify.min.js"></script>
 
     <!-- angular-xGallerify -->
-    <script src="node_modules/angular-xGallerify/dist/angular-xgallerify.min.js"></script>
+    <script src="bower_components/angular-xGallerify/dist/angular-xgallerify.min.js"></script>
     ```
     2. When using npm
     ```html
