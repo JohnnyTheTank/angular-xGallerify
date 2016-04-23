@@ -1,6 +1,6 @@
 /**
     @name: angular-xgallerify 
-    @version: 1.0.2 (21-03-2016) 
+    @version: 1.0.2 (31-03-2016) 
     @author: Jonathan Hornung <jonathan.hornung@gmail.com> 
     @url: https://github.com/JohnnyTheTank/angular-xGallerify#readme 
     @license: MIT
@@ -16,7 +16,7 @@ angular.module('jtt_angular_xgallerify', [])
                 if (attrs.xgallerify) {
                     params = $.parseJSON(attrs.xgallerify.replace(/'/g, '"'));
                 }
-                if (isObject(params)) {
+                if (typeof params === 'object' && params !== null) {
                     settings = $.extend({
                         margin: 5,
                         mode: 'bootstrap',
@@ -27,9 +27,7 @@ angular.module('jtt_angular_xgallerify', [])
                 scope.$on('angular-xGallerify.refresh', function () {
                     element.gallerify.render();
                 });
-                function isObject(item) {
-                    return (typeof item === "object" && !Array.isArray(item) && item !== null);
-                }
+
             }
         }
     });
